@@ -54,7 +54,8 @@ class InteractiveRecord
   end
   
   def self.find_by(value)
-    sql = "SELECT * FROM #{self.table_name} WHERE #{value[]}"
+    column_name = 
+    sql = "SELECT * FROM #{self.table_name} WHERE #{column_name}"
   end
   
 end
